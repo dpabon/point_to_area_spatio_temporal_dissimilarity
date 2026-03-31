@@ -2,7 +2,7 @@
 
 ## OEMC project task: 4.9 Integration and harmonization between in-situ and gridded data
 
-Computing the potential impact of the spatial mismatch between in-situ observations and remote sensing products is a fundamental step to improve the representation of the ecosystem states at a global scale. In this project task, we explore the use of the Jensen-Shannon distance as an indicator of the mismatch between eddy covariance towers and different potential remote sensing areas, that we expect will help to improve the upscaling of Sun-Induced Fluorescence estimates from satellite missions.
+Computing the potential impact of the spatial mismatch between in-situ observations and remote sensing products is a fundamental step to improve the representation of the ecosystem states at a global scale. In this project task, we explore the use of the Jensen-Shannon distance as an indicator of the mismatch between eddy covariance towers and different potential remote sensing areas, that we expect will help to improve the upscaling of Sun-Induced Fluorescence estimates from satellite missions. Nevertheless, the framework is generic enough that the Jensen-Shannon can be computed and applied for the upscaling of other biophysical variables.
 
 The following repository contains three tutorials to compute the Jensen-Shannon distance (dissimilarity metric) using the Copernicus Data Space Ecosystem. Specifically uses the SentinelHub backend through the [xcube](https://xcube.readthedocs.io/en/latest/) package and the plugin [xcube-sh](https://github.com/xcube-dev/xcube-sh)
 
